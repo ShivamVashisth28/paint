@@ -12,7 +12,8 @@ This is a simple Paint web app created using HTML, CSS, and Vanilla JavaScript.
 
 ## Preview
 
-![Paint Web App Preview](preview.png)
+[Paint](shivamvashisth28.github.io/paint/)
+
 
 ## Installation
 
