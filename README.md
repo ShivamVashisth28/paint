@@ -9,6 +9,8 @@ This is a simple Paint web app created using HTML, CSS, and Vanilla JavaScript.
 - **Pen Size**: Adjust the size of the drawing pen.
 - **Eraser**: Erase parts of your drawing.
 - **Clear**: Clear the entire canvas.
+- **Screen Shot**: Takes the screenshot of the entire canvas.
+
 
 ## Preview
 
