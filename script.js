@@ -304,20 +304,17 @@ document.addEventListener("mousemove",(e)=>{
 
 
 
-
-// adding save your drawing capability
+// screen shot feature
 
 function saveElementAsImage(element, filename) {
     html2canvas(document.documentElement).then(function(canvas) {
-        // Convert canvas to image data URL
+
         var imageData = canvas.toDataURL('image/png');
 
-        // Create a link element
         var link = document.createElement('a');
         link.download = filename + '.png';
         link.href = imageData;
         
-        // Simulate a click on the link to trigger the download
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -325,7 +322,6 @@ function saveElementAsImage(element, filename) {
 }
 
 
-// Example usage
 var elementToSave = document.querySelector('body'); 
 var filename = 'image'; 
 
